@@ -64,98 +64,163 @@
         class="h-32 ml-auto rounded-md md:w-32"
       />
     </div>
-    <div id="content" class="flex flex-wrap items-center justify-between gap-6 mb-8">
+    <div
+      id="content"
+      class="flex flex-wrap items-center justify-between gap-6 mb-8"
+    >
       <p>
-        I am currently working as a developer, educator, and musician. I also have experience
-        in the startup world - building teams, launching products, and fostering
+        I am currently working as a developer, educator, and musician. My
+        experience also includes building teams, launching products, and driving
+        the full business development cycle – from identifying and engaging
+        prospects to negotiating contracts and closing revenue-generating
         partnerships. I enjoy studying the greats like Charlie Munger, Shane
-        Parrish, and Chamath Palihapitiya. For fun, I swim/bike/run with my friends
-        and family. I am on my path and loving it! ↘
+        Parrish, and Chamath Palihapitiya. For fun, I swim/bike/run with my
+        friends and family. I am on my path and loving it! ↘
       </p>
-      
-    
-      <div>
-        Here are some things I am excited about that you think I might appreciate. ↘
-      </div>
-    
-      <div id="itemsContainer" class="grid grid-cols-1 gap-3 md:grid-cols-2"></div>
 
-      <div class="text-amber-400">
-        <a href="https://sm-guide-zeta.vercel.app/" target=”_blank”>Check out this Documentation that I am really proud of.</a><br/>
-        <a href="https://github.com/chaselikethebank" target=”_blank”>Dig through my github; Let's build something together.</a><br/>
-        <a href="https://open.spotify.com/artist/5SNgAxRpQFFfsQsqJLTbLF" target=”_blank”>Listen to my Jazz Ensemble's first record, "Live at the PAC"</a><br/>
-        <a href="https://themarket.fit/" target=”_blank”>This is where I funnel Startup and Consulting work currently.</a><br/>
+      <div>
+        Here are some things I am excited about that I think you will
+        appreciate. ↘
       </div>
-    
+
+      <div
+        id="itemsContainer"
+        class="grid grid-cols-1 gap-5 md:grid-cols-2"
+      ></div>
+
       <div>What are you excited about that I might appreciate? ↘</div>
       <div class="text-indigo-400">
         shoot me an email: chase demaster dot tech at gmail dot com
       </div>
     </div>
-    
+
     <script>
       const items = [
         {
-          title: 'University of Texas SA & Wisconson',
-          role: 'Instructor',
+          title: "University of Texas SA & Wisconson",
+          role: "Instructor",
           description:
             "I get to teach young and inspired individuals how to code. We focus on the MERN stack over the course of an intense 26-week program. It's hard!",
-          icon: 'fa-solid fa-terminal',
-          stat: '36 Graduates',
-          link: 'https://2u.com/about/boot-camps/',
+          icon: "fa-solid fa-terminal",
+          stat: "36 + Graduates",
+          link: "https://2u.com/about/boot-camps/",
         },
         {
-          title: 'twmc.org',
-          role: 'Frontend Developer => Full Stack Developer',
+          title: "twmc.org",
+          role: "Frontend Developer => Full Stack Developer",
           description:
-            'Creative Services team member. My resposonsibilities include writing world-class Documentation, solving the toughest problems with code, build RMS pipelines, and leading the Dev team\'s Tuesday standup.',
-          icon: 'fa-solid fa-eye',
-          stat: '333K + views 1/4 to date',
-          link: 'https://www.thewoodlandsmethodist.org/',
+            "Creative Services team member. My responsibilities include writing world-class Documentation, solving the toughest problems with code, build RMS pipelines, and leading the Dev team's Tuesday standup.",
+          icon: "fa-solid fa-code",
+          stat: "333K + views per 1/4 ",
+          link: "https://www.thewoodlandsmethodist.org/",
         },
         {
-          title: 'The Market Dot Fit',
-          role: 'Founder / Developer',
+          title: "The Market Dot Fit",
+          role: "Founder / Developer",
           description:
             "One of our products, Dropbox Killer, is a file sharing app that is 100% free. Dropbox has 2.37% market share at a $8.21B market cap. .01% of that is just shy of $1M. I'll take it! MVP: Next, Shadcd, Firebase, Clerk.",
-          icon: 'fa-solid fa-user',
-          stat: '3 + users currently',
-          link: 'https://dropbox-killer.vercel.app/',
+          icon: "fa-solid fa-rocket",
+          stat: "Beta Users",
+          link: "https://dropbox-killer.vercel.app/",
         },
         {
-          title: '#veryjazzed',
-          role: 'Founder',
+          title: "#veryjazzed",
+          role: "Founder / Operator",
           description:
-            'A music rights management co. I bootstrapped for 5 years, and in 2016 took on private equity. 2020 I bought it all back. Manage < 160 records currently.',
-          icon: 'fa-brands fa-spotify',
-          stat: '+/- 10 Million streams',
-          link: 'https://veryjazzed.com/',
+            "A music rights management co. I bootstrapped for 5 years, and in 2016 took on private equity. 2020 I bought it all back. I manage the rights to 160+ records currently.",
+          icon: "fa-solid fa-music",
+          stat: "+/- 10 Million streams (lifetime)",
+          link: "https://veryjazzed.com/",
+        },
+        {
+          title: "Codebase Documentation",
+          role: "Author / Developer",
+          description:
+            "Technical documentation example showcasing detailed explanations and structure. Really proud of this work.",
+          icon: "fa-solid fa-book-open",
+          stat: "CI/CD w 102 + deployments",
+          link: "https://sm-guide-zeta.vercel.app/",
+        },
+        {
+          title: "GitHub Profile",
+          role: "Developer",
+          description:
+            "Explore my open-source projects, contributions, and coding activity. Let's build something together!",
+          icon: "fa-brands fa-github",
+          stat: "224 + Repos",
+          link: "https://github.com/chaselikethebank",
+        },
+        {
+          title: 'Jazz Ensemble Record: "Live at the PAC"',
+          role: "Director / Producer",
+          description:
+            'Listen to the record "Live at the PAC" from my Jazz Ensemble on Spotify.',
+          icon: "fa-solid fa-record-vinyl",
+          stat: "Directing for almost 10 years",
+          link: "https://open.spotify.com/album/5rQN2qZjvrxedNTmal6CNU?si=OZiPW7oNQjGfJf7ZJsxSjg",
+        },
+        {
+          title: "Startup & Consulting Hub",
+          role: "Consultant / Founder",
+          description:
+            "TheMarket.fit serves as the primary channel for engaging in new startup ventures and consulting opportunities.",
+          icon: "fa-solid fa-briefcase",
+          stat: "20% of my Annual Work",
+          link: "https://themarket.fit/",
+        },
+        {
+          title: "Annual Review Saas",
+          role: "Lead Developer",
+          description:
+            "A Laravel-based application to streamline annual performance reviews, track assessments, and generate actionable feedback.",
+          icon: "fa-solid fa-chart-line",
+          stat: "In Dev",
+          link: "https://github.com/chaselikethebank/Annual-Review-App-Laravel",
+        },
+        {
+          title: "GitRdone Kanban App",
+          role: "Lead Developer",
+          description:
+            "A Kanban-style task board built with HTML, Tailwind, and vanilla JS. Fully drag-and-drop capable, built to be dead simple and fast. ",
+          icon: "fa-solid fa-grip-vertical",
+          stat: "In Dev",
+          link: "10s of MAUs",
+        },
+        {
+          title: "Automotive Shop SaaS",
+          role: "Lead Developer",
+          description:
+            "Laravel-based system for managing works, tasks, and technician assignments. Designed for efficient team coordination and workflow clarity.",
+          icon: "fa-solid fa-tools",
+          stat: "Zero to One",
+          link: "https://github.com/chaselikethebank/tech-show-app",
         },
       ];
-    
-      const itemsContainer = document.getElementById('itemsContainer');
-    
+
+      const itemsContainer = document.getElementById("itemsContainer");
+
       items.forEach((item) => {
-        const itemElement = document.createElement('div');
+        const itemElement = document.createElement("div");
         itemElement.className =
-          'flex flex-col items-start gap-2 px-3 py-2 text-indigo-400 border rounded-md hover:bg-zinc-800 border-amber-400';
-    
+          "border rounded-md hover:bg-zinc-800 border-amber-400 text-indigo-400";
+
         itemElement.innerHTML = `
-          <a href="${item.link}" target="_blank" class="text-xl">${item.title}</a>
-          <p class="text-sm text-white">${item.role}</p>
-          <div class="flex flex-col justify-between h-full">
-            <div class="mt-5 text-gray-400">${item.description}</div>
-            <div class="flex items-center gap-3 mt-3">
-              <i class="${item.icon}"></i>
-              <p class="text-sm">${item.stat}</p>
-            </div>
-          </div>
-        `;
-    
+            <a href="${item.link}" target="_blank" class="block p-5 w-full h-full flex flex-col gap-4 text-left">
+              <h2 class="text-xl">${item.title}</h2>
+              <p class="text-sm text-white">${item.role}</p>
+              <div class="flex flex-col justify-between h-full">
+                <div class="mt-5 text-gray-400">${item.description}</div>
+                <div class="flex items-center gap-3 mt-3">
+                  <i class="${item.icon}"></i>
+                  <p class="text-sm">${item.stat}</p>
+                </div>
+              </div>
+            </a>
+          `;
+
         itemsContainer.appendChild(itemElement);
       });
     </script>
-    
   </body>
 </html>
 <!-- 
